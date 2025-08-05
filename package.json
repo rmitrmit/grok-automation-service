@@ -1,5 +1,11 @@
 {
+  "name": "grok-automation-service",
+  "version": "1.0.0",
+  "description": "Standalone Grok web automation service for image editing",
   "dependencies": {
     "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
