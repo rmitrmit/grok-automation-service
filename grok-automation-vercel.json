@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "grok-automation",
+  "functions": {
+    "grok-automation-service.js": {
+      "runtime": "@vercel/node"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/grok-automation-service.js"
+    }
+  ]
+}
