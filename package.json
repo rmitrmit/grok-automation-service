@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Standalone Grok web automation service for image editing",
   "dependencies": {
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^22.8.2"
   },
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   }
 }
